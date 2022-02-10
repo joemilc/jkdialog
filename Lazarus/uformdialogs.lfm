@@ -1,0 +1,152 @@
+object JKFormDialog: TJKFormDialog
+  Left = 434
+  Height = 192
+  Top = 244
+  Width = 440
+  Caption = 'JKFormDialog'
+  ClientHeight = 192
+  ClientWidth = 440
+  OnShow = FormShow
+  LCLVersion = '2.0.12.0'
+  object pTexto: TPanel
+    Left = 0
+    Height = 94
+    Top = 49
+    Width = 440
+    Align = alClient
+    ClientHeight = 94
+    ClientWidth = 440
+    TabOrder = 0
+    object lTexto: TLabel
+      Left = 74
+      Height = 88
+      Top = 1
+      Width = 360
+      AutoSize = False
+      Caption = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend aliquam dui eget consequat. In pellentesque laoreet justo, id ullamcorper velit ultrices sed.'
+      Font.Color = 14397732
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Layout = tlCenter
+      ParentColor = False
+      ParentFont = False
+      WordWrap = True
+    end
+    object imgDialog: TImage
+      Cursor = crHandPoint
+      Left = 1
+      Height = 92
+      Top = 1
+      Width = 70
+      Align = alLeft
+      Center = True
+      Transparent = True
+    end
+  end
+  object pTopo: TPanel
+    Left = 0
+    Height = 49
+    Top = 0
+    Width = 440
+    Align = alTop
+    Caption = 'Mensagem do Topo'
+    Color = clNone
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentBackground = False
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 1
+  end
+  object pBotton: TPanel
+    Left = 0
+    Height = 49
+    Top = 143
+    Width = 440
+    Align = alBottom
+    ClientHeight = 49
+    ClientWidth = 440
+    TabOrder = 2
+    object pYes: TPanel
+      Left = 340
+      Height = 41
+      Top = 3
+      Width = 96
+      BevelOuter = bvNone
+      Caption = 'pYes'
+      ClientHeight = 41
+      ClientWidth = 96
+      TabOrder = 0
+      object shYes: TShape
+        Left = 0
+        Height = 41
+        Top = 0
+        Width = 96
+        Align = alClient
+        Brush.Color = 14397732
+        Pen.Color = 14397732
+        Shape = stRoundRect
+      end
+      object lYes: TLabel
+        Cursor = crHandPoint
+        Left = 0
+        Height = 41
+        Top = 0
+        Width = 96
+        Align = alClient
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'Sim'
+        Font.Color = clWhite
+        Font.Height = -13
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        Layout = tlCenter
+        ParentColor = False
+        ParentFont = False
+        OnClick = lYesClick
+      end
+    end
+    object pNo: TPanel
+      Left = 230
+      Height = 41
+      Top = 3
+      Width = 96
+      BevelOuter = bvNone
+      Caption = 'pYes'
+      ClientHeight = 41
+      ClientWidth = 96
+      TabOrder = 1
+      object shNo: TShape
+        Left = 0
+        Height = 41
+        Top = 0
+        Width = 96
+        Align = alClient
+        Pen.Color = 14397732
+        Shape = stRoundRect
+      end
+      object lNo: TLabel
+        Cursor = crHandPoint
+        Left = 0
+        Height = 41
+        Top = 0
+        Width = 96
+        Align = alClient
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'Não'
+        Font.Color = 14397732
+        Font.Height = -13
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        Layout = tlCenter
+        ParentColor = False
+        ParentFont = False
+        OnClick = lNoClick
+      end
+    end
+  end
+end

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="D:\lazarus\laz2012\fpc\3.2.0\bin\i386-win32\fpc.exe" Date="1381338394"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -WG -l -vewnhibq -FiD:\Joemil\TestesDelphi\Dialogs\Lazarus -FuD:\lazarus\laz2012\lcl\units\i386-win32\win32 -FuD:\lazarus\laz2012\lcl\units\i386-win32 -FuD:\lazarus\laz2012\components\lazutils\lib\i386-win32 -FuD:\lazarus\laz2012\packager\units\i386-win32 -FuD:\Joemil\TestesDelphi\Dialogs\Lazarus\ -FED:\Joemil\TestesDelphi\Dialogs\Lazarus\ -oD:\Joemil\TestesDelphi\Dialogs\Lazarus\DialogsTest.exe -dLCL -dLCLwin32 DialogsTest.lpr"/>
+</CONFIG>

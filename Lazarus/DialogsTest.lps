@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="DialogsTest.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="udialogs.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uDialogs"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="25"/>
+        <CursorPos X="3" Y="40"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="uformdialogs.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="JKFormDialog"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uformDialogs"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="10"/>
+        <CursorPos X="15" Y="36"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="uJKDialog.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="24" Y="19"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="9" HistoryIndex="8">
+      <Position1>
+        <Filename Value="uJKDialog.pas"/>
+        <Caret Line="6" Column="17"/>
+      </Position1>
+      <Position2>
+        <Filename Value="uformdialogs.pas"/>
+        <Caret Line="32" Column="17" TopLine="13"/>
+      </Position2>
+      <Position3>
+        <Filename Value="uJKDialog.pas"/>
+        <Caret Line="23" Column="16" TopLine="15"/>
+      </Position3>
+      <Position4>
+        <Filename Value="uJKDialog.pas"/>
+        <Caret Line="11" Column="15"/>
+      </Position4>
+      <Position5>
+        <Filename Value="uformdialogs.pas"/>
+        <Caret Line="36" Column="15" TopLine="10"/>
+      </Position5>
+      <Position6>
+        <Filename Value="udialogs.pas"/>
+        <Caret Line="40" TopLine="11"/>
+      </Position6>
+      <Position7>
+        <Filename Value="udialogs.pas"/>
+        <Caret Line="47" TopLine="18"/>
+      </Position7>
+      <Position8>
+        <Filename Value="udialogs.pas"/>
+        <Caret Line="54" TopLine="26"/>
+      </Position8>
+      <Position9>
+        <Filename Value="udialogs.pas"/>
+        <Caret Line="61" TopLine="33"/>
+      </Position9>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
