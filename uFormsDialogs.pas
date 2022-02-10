@@ -10,9 +10,7 @@ uses
 
 type
 
-  TPadrao = (pAzul, pVermelho, pAmarelo, pVerde);
-
-  TFormDialog = class(TForm)
+  TJKFormDialog = class(TForm)
     pTopo: TPanel;
     pTexto: TPanel;
     pBotton: TPanel;
@@ -35,14 +33,14 @@ type
   end;
 
 var
-  FormDialog: TFormDialog;
+  JKFormDialog: TJKFormDialog;
 
 
 implementation
 
 {$R *.dfm}
 
-procedure TFormDialog.FormShow(Sender: TObject);
+procedure TJKFormDialog.FormShow(Sender: TObject);
 begin
   pTopo.Color := Cor;
   lTexto.Font.Color := Cor;
@@ -53,12 +51,12 @@ begin
   lNo.Font.Color := Cor;
 end;
 
-procedure TFormDialog.lNoClick(Sender: TObject);
+procedure TJKFormDialog.lNoClick(Sender: TObject);
 begin
   ModalResult := mrCancel;
 end;
 
-procedure TFormDialog.lYesClick(Sender: TObject);
+procedure TJKFormDialog.lYesClick(Sender: TObject);
 begin
   ModalResult := mrOK;
 end;

@@ -2,7 +2,6 @@ program DialogsTest;
 
 uses
   Vcl.Forms,
-  uJKDialog in 'uJKDialog.pas',
   uDialogs in 'uDialogs.pas' {Form1};
 
 {$R *.res}

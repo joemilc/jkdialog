@@ -1,4 +1,4 @@
-object FormDialog: TFormDialog
+object JKFormDialog: TJKFormDialog
   Left = 0
   Top = 0
   BorderStyle = bsNone
@@ -142,8 +142,6 @@ object FormDialog: TFormDialog
     Align = alBottom
     ParentColor = True
     TabOrder = 2
-    ExplicitLeft = 81
-    ExplicitTop = 145
     object pYes: TPanel
       Left = 340
       Top = 3
