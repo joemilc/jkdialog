@@ -65,7 +65,7 @@ begin
     JKFormDialog.lYes.Caption := 'OK';
   end;
 
-  Result := JKFormDialog.ShowModal = mrYes;
+  Result := JKFormDialog.ShowModal = mrOK;
 
   FreeAndNil(JKFormDialog);
 end;
