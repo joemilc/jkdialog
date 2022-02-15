@@ -31,8 +31,9 @@ implementation
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
-  JKDialog('Título da Mensagem',
-    'As faturas do período foram geradas'+#13+'Deseja validar as informações agora?', tdMensagem);
+  if JKDialog('Título', 'Mensagem', tdMensagem) then
+  else
+    ShowMessage('Cancelar');
 end;
 
 procedure TForm1.Button2Click(Sender: TObject);
